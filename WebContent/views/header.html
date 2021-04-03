@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div, form, input{border: 1px solid gray; box-sizing: border-box;}
+        button{background-color:orange; border: 1px solid orange;}
+        .wrap{width: 1000px; height:800px;  margin: auto;}
+        
+        .wrap>div{width: 100%;}
+        #header{height: 20%;}
+
+        #header>div, #content>div{height: 100%; float: left;}
+        #header_1{width: 20%;}
+        #header_2{width: 55%;}
+        #header_3{width: 25%;}
+
+
+        /* 세부_검색창폼만들기 */
+        #header_2{position: relative;}
+        #search_form{
+            width: 70%; 
+            height: 20%; 
+            margin: auto; /*꼭 있어야 0px 조정이 가능함*/
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0;
+            right: 0px;
+            }
+        #search_form>*{float: left; height: 100%;}
+        #search_text{width: 90%;}
+        #search_btn{width: 20%;}
+        #search_form input{width: 100%; height: 100%;} /*후손은 부등호 없음*/
+
+
+        #header_1{position:relative;}
+        #logo_img{
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 80%;
+            height: 80%;
+        }
+
+        #header_3{position:relative;}    
+        
+        #info_1 *{
+            text-decoration: none;
+            float: left;
+            font-size: 10px;
+            list-style-type: none; 
+            margin-left: 2px;
+
+            }
+
+
+        #info_2 *{
+            float: left;
+            display: block;
+            text-decoration: none;
+            list-style-type: none;
+
+            }
+        
+        figure{
+            display: inline-block;
+            
+        }
+
+        figcaption{
+            position: absolute;
+            bottom:-20px
+        }
+        #mp{
+            position: absolute;
+            top: 80px;
+            left: 25px;
+
+        }
+
+        #cart{
+            position: absolute;
+            top: 80px;
+            left: 80px;
+
+        }
+
+        #like{
+            position: absolute;
+            top: 80px;
+            left: 130px;
+
+        }
+
+        #cp{
+            position: absolute;
+            top: 80px;
+            left: 180px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div id="header">
+            <div id="header_1">
+                <a href="">
+                <img id="logo_img" src="resources/images/제주와 로고.png" alt="">
+                </a>
+            </div>
+
+            <div id="header_2">
+                <form action="" id="search_form">
+                    
+                    <div id="search_btn" style="width: 10%;">
+                        <!--<input type="submit" value="검색">-->
+                        <button><img style="width: 100%; height: 100%;" src="resources/images/돋보기.png"></button>
+                    </div>
+                    
+                    <div id="search_text">
+                        <input type="search" name="keyword">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div id="header_3">
+                <div>
+                    <ul id="info_1">
+                        <li><a href="">xxx님 환영합니다</a></li> 
+                        <li><a href="">로그아웃</a></li> 
+                        <li><a href="">고객센터</a></li> 
+                    </ul>
+                </div>    
+                
+                <div>
+                    <ul id="info_2">
+                        <figure>
+                            <li id="mp">
+                                <a href=""><img src="resources/images/마이페이지.png" style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">마이페이지</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="cart">
+                                <a href=""><img src="resources/images/장바구니.png" style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">장바구니</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="like">
+                                <a href=""><img src="resources/images/좋아요.png " style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">좋아요</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="cp"><a href=""><img src="resources/images/쿠폰.png" style="width: 60%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">쿠폰</a></figcaption>
+                            </li>
+                        </figure>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+</body>
+</html>
