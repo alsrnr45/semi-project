@@ -1,0 +1,99 @@
+
+        .customer_center {
+            border-top: 2px solid #e6e6e6;
+            clear:both;
+        }
+
+        .customer_center_left{
+            margin-left:20%;
+            font-family: 'Noto Sans JP', sans-serif;
+            float:left;
+        }
+
+        .customer_center_left>a{
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #777;
+        }   
+
+        .customer_center_right{
+            text-align: right;
+            margin-right:20%;
+        }
+
+        .btn-oneOnOne>a {
+            color:white;
+            font-weight: 600;
+        }
+        .btn-outline-warning>a {
+            color:#ffc107;
+            font-weight: 600;
+        }
+        .btn_faq{
+            background-color: #f2b747;
+        }
+
+        .footer_corp_inf, .footer_service_inf{
+            list-style-type: none;
+        }
+
+        .footer_service_support {
+            border-top: 2px solid #e6e6e6;
+            border-bottom: 2px solid #e6e6e6;
+            clear:both;
+            background-color: #c0c0c0;
+        }
+        .footer_service_inf{
+            overflow: hidden;
+            text-align: center;
+            margin: 0px;
+            padding-left:20%;
+            min-width:1200px;
+        }
+
+        .footer_service_inf>li{ /*li태그지정*/
+            margin-right:20px;
+            text-decoration:none;
+            font-weight: 500;
+            float:left;
+        }
+
+        .footer_service_inf>li>a {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            color:#3f3f3f;
+            font-weight: 550;
+        }
+
+        .corp_info_cs {
+            font-family: 'Montserrat', sans-serif;
+            padding-left:20%;
+            min-width:0px;
+            font-weight:100;
+            min-width:1200px;
+        }
+
+        .corp_info_cs>dd{
+            margin-left:0px;
+            margin-bottom: 0px;
+        }
+        .corp_info_cs>dd>p{
+            margin-bottom: 0px;
+        }
+        #cs1{
+            font-size:20px;
+            font-weight:800;
+        }
+
+        .corp_info_tx{
+            font-family: 'Montserrat', sans-serif;
+            padding-left:20%;
+            font-weight:100;
+            color:#777;
+            min-width:1200px;
+        }
+
+        .corp_info_tx_wrap>dt>p{
+            margin-top: 0px;
+            margin-bottom:0px;
+        }
