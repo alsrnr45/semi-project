@@ -5,7 +5,6 @@
         }
 
         .customer_center_left{
-            margin-left:20%;
             font-family: 'Noto Sans JP', sans-serif;
             float:left;
         }
@@ -17,7 +16,6 @@
 
         .customer_center_right{
             text-align: right;
-            margin-right:20%;
         }
 
         .btn-oneOnOne>a {
@@ -46,7 +44,6 @@
             overflow: hidden;
             text-align: center;
             margin: 0px;
-            padding-left:20%;
             min-width:1200px;
         }
 
@@ -67,7 +64,6 @@
 
         .corp_info_cs {
             font-family: 'Montserrat', sans-serif;
-            padding-left:20%;
             min-width:0px;
             font-weight:100;
             min-width:1200px;
@@ -87,7 +83,6 @@
 
         .corp_info_tx{
             font-family: 'Montserrat', sans-serif;
-            padding-left:20%;
             font-weight:100;
             color:#777;
             min-width:1200px;

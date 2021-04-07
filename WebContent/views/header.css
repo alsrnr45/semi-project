@@ -1,9 +1,12 @@
-div, form, input{border: 1px solid gray; box-sizing: border-box;}
+div, form, input{border: 1 solid gray; box-sizing: border-box;}
+
 button{background-color:orange; border: 1px solid orange;}
+
 .wrap{width: 1000px; height:800px;  margin: auto;}
 
 .wrap>div{width: 100%;}
-#header{height: 20%;}
+
+#header{height: 20%; color: black;}
 
 #header>div, #content>div{height: 100%; float: left;}
 #header_1{width: 20%;}
@@ -32,6 +35,7 @@ button{background-color:orange; border: 1px solid orange;}
 #header_1{position:relative;}
 #logo_img{
     margin: auto;
+    margin-top: 28px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -72,28 +76,28 @@ figcaption{
 }
 #mp{
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 25px;
 
 }
 
 #cart{
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 80px;
 
 }
 
 #like{
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 130px;
 
 }
 
 #cp{
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: 180px;
 
 }

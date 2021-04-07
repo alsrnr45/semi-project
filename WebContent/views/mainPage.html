@@ -5,109 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <!-- header css -->
-        <link rel="stylesheet" type="text/css" href="header.css">
+    <!-- header css -->
+    <link rel="stylesheet" type="text/css" href="header.css">
 
-        <!-- footer css -->
-        <link rel="stylesheet" type="text/css" href="footer.css">
+    <!-- content css-->
+    <link rel="stylesheet" type="text/css" href="content.css">    
 
+    <!-- footer css -->
+    <link rel="stylesheet" type="text/css" href="footer.css">
 
-    <style>
-        header{height: 20%;}
-        main{height: 60%;}
-        footer{height: 20%;}
+    <!-- footer fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
-    </style>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+    <!-- footer jQuery -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
 </head>
-<body>
-        <header style="height:20%">
-            <div class="wrap">
-                <div id="header">
-                    <div id="header_1">
-                        <a href="">
-                        <img id="logo_img" src="resources/images/제주와 로고.png" alt="">
-                        </a>
+    <div class="wrap">
+        <div id="header">
+            <div id="header_1">
+                <a href="">
+                <img id="logo_img" src="../resources/images/제주와 로고.png" alt="">
+                </a>
+            </div>
+
+            <div id="header_2">
+                <form action="" id="search_form">
+                    
+                    <div id="search_btn" style="width: 10%;">
+                        <!--<input type="submit" value="검색">-->
+                        <button><img style="width: 100%; height: 100%;" src="../resources/images/돋보기.png"></button>
                     </div>
-        
-                    <div id="header_2">
-                        <form action="" id="search_form">
-                            
-                            <div id="search_btn" style="width: 10%;">
-                                <!--<input type="submit" value="검색">-->
-                                <button><img style="width: 100%; height: 100%;" src="resources/images/돋보기.png"></button>
-                            </div>
-                            
-                            <div id="search_text">
-                                <input type="search" name="keyword">
-                            </div>
-                            
-                        </form>
+                    
+                    <div id="search_text">
+                        <input type="search" name="keyword">
                     </div>
-        
-                    <div id="header_3">
-                        <div>
-                            <ul id="info_1">
-                                <li><a href="">xxx님 환영합니다</a></li> 
-                                <li><a href="">로그아웃</a></li> 
-                                <li><a href="">고객센터</a></li> 
-                            </ul>
-                        </div>    
-                        
-                        <div>
-                            <ul id="info_2">
-                                <figure>
-                                    <li id="mp">
-                                        <a href=""><img src="resources/images/마이페이지.png" style="width: 40%;"></a>
-                                        <figcaption style="font-size: 10px;"><a href="">마이페이지</a></figcaption>
-                                    </li>
-                                </figure>
-        
-                                <figure>
-                                    <li id="cart">
-                                        <a href=""><img src="resources/images/장바구니.png" style="width: 40%;"></a>
-                                        <figcaption style="font-size: 10px;"><a href="">장바구니</a></figcaption>
-                                    </li>
-                                </figure>
-        
-                                <figure>
-                                    <li id="like">
-                                        <a href=""><img src="resources/images/좋아요.png " style="width: 40%;"></a>
-                                        <figcaption style="font-size: 10px;"><a href="">좋아요</a></figcaption>
-                                    </li>
-                                </figure>
-        
-                                <figure>
-                                    <li id="cp"><a href=""><img src="resources/images/쿠폰.png" style="width: 60%;"></a>
-                                        <figcaption style="font-size: 10px;"><a href="">쿠폰</a></figcaption>
-                                    </li>
-                                </figure>
-                            </ul>
-        
-                        </div>
-                    </div>
+                    
+                </form>
+            </div>
+
+            <div id="header_3">
+                <div>
+                    <ul id="info_1">
+                        <li><a href="">xxx님 환영합니다</a></li> 
+                        <li><a href="">로그아웃</a></li> 
+                        <li><a href="">고객센터</a></li> 
+                    </ul>
+                </div>    
+                
+                <div>
+                    <ul id="info_2">
+                        <figure>
+                            <li id="mp">
+                                <a href=""><img src="../resources/images/마이페이지.png" style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">마이페이지</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="cart">
+                                <a href=""><img src="../resources/images/장바구니.png" style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">장바구니</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="like">
+                                <a href=""><img src="../resources/images/좋아요.png" style="width: 40%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">좋아요</a></figcaption>
+                            </li>
+                        </figure>
+
+                        <figure>
+                            <li id="cp"><a href=""><img src="../resources/images/쿠폰.png" style="width: 60%;"></a>
+                                <figcaption style="font-size: 10px;"><a href="">쿠폰</a></figcaption>
+                            </li>
+                        </figure>
+                    </ul>
+
                 </div>
-        </header>
-        <main>콘텐트</main>
-        <footer>
+            </div>
+        </div>
+    
+        <br clear=" both"> <br>
+
+    <div class="navWrap" align="center">
+        <div class="menu"><a href="">투어/티켓</a></div>
+        <div class="menu"><a href="">맛집</a></div>
+        <div class="menu"><a href="">이벤트</a></div>
+        <div class="menu"><a href="">할인기획전</a></div>
+    
+    </div>
+
+    <!-- 메인이미지 -->
+
+    <div id="img_jejumain">
+            <div style="position: absolute;">
+                <a href="#" class="left_click">
+                <div style="position: relative; top: 150px; left: 30px;"><img src="../resources/images/left_ch.png"></img></div></a>
+            </div>
+            <div style="position: absolute;">
+                <a href="#" class="left_click">
+                <div style="position: relative; top: 150px; left: 850px;"><img src="../resources/images/right_ch.png"></img></a></div>
+            </div>
+            
+            <img src="../resources/images/jeju_main.jpg" id="main_img"></img>
+        
+    </div>
+
+     <!-- 추천상품 -->
+
+    <div class="medium">
+        <label for="" class="medieum-font">제주와 추천상품</label>
+    </div>
+        <div class="product-list">
+            <div class="product-list2" >
+                <a href="#" class="product">
+                <img src="../resources/images/reco_1.png" alt="" width="245">
+                <div class="product-name">제주시티투어</div>
+                <div class="product-price">128,000 <label for="" id="price-won">원 </div></a>
+
+                <a href="#" class="product">
+                <img src="../resources/images/reco_1.png" alt="" width="245">
+                <div class="product-name">제주시티투어</div>
+                <div class="product-price">128,000 <label for="" id="price-won">원</div></a>
+
+                <a href="#" class="product">
+                <img src="../resources/images/reco_1.png" alt="" width="245">
+                <div class="product-name">제주시티투어</div>
+                <div class="product-price">128,000 <label for="" id="price-won">원</div></a>
+        </div>
+
+        </div>
+
+        <!-- 제주와 투어/티켓 인기 -->
+
+        <div class="medium">
+            <label for="" class="medieum-font">투어/티켓 인기상품</label>
+        </div>
+            <div class="product-list">
+                <div class="product-list2" >
+                    <a href="#" class="product">
+                    <img src="../resources/images/reco_1.png" alt="" width="245">
+                    <div class="product-name">제주시티투어</div>
+                    <div class="product-price">128,000 <label for="" id="price-won">원</label></div></a>
+    
+                    <a href="#" class="product">
+                    <img src="../resources/images/reco_1.png" alt="" width="245">
+                    <div class="product-name">제주시티투어</div>
+                    <div class="product-price">128,000 <label for="" id="price-won">원 </div></a>
+    
+                    <a href="#" class="product">
+                    <img src="../resources/images/reco_1.png" alt="" width="245">
+                    <div class="product-name">제주시티투어</div>
+                    <div class="product-price">128,000 <label for="" id="price-won">원</div></a>
+            </div>
+        </div>
+        
+        <footer id="footer" style="margin: 0px;">
             <div class="customer_center">
-                <div class="customer_center_left">
+                <div class="customer_center_left" style="margin-top:6px";>
                     <a href="">공지사항</a>
-                    <a href="">공지사항 업데이트</a>
-                    <a href="">더보기</a>
+                    <a href="" style="margin-left:20px;">공지사항 업데이트</a>
+                    <a href="" style="margin-left:40px;">더보기<img src="../resources/images/right_ch.png" height="20"></a>
                 </div>
                 <div class="customer_center_right">
                 <button type="button" class="btn btn-warning btn-oneOnOne"><a href="">1:1문의하기</a></button>
@@ -157,5 +231,16 @@
         
             </div>
         </footer>
+    </div>
+
+
+
+
+
+
 </body>
 </html>
+
+
+
+
