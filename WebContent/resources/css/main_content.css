@@ -1,36 +1,4 @@
-
-/* 메뉴바 */
-
-#loginForm, #userInfo{float:right;}
-
-#userInfo a{color:rgb(252, 216, 167); text-decoration:none; font-size:10px;}
-
-.menu{
-display:table-cell;
-height:20px;
-width:174px;
-}
-
-.menu a{
-text-decoration:none;
-color:rgb(0, 0, 0);
-font-size:15px;
-line-height:45px;
-font-weight:bold;
-display:block;
-width:100%;
-height:100%;
-}
-
-.menu a:hover{background:rgb(243, 224, 170);
-              color: coral;}
-
-.row-cols-md-4 > * {
-                    -ms-flex: 0 0 25%;
-                    flex: 0 0 25%;
-                    max-width: 25%;
-                    }
-
+.content_wrap{width: 1000px; height:800px;  margin: auto;}
 
 /* 메인이미지 */
 #main_img{

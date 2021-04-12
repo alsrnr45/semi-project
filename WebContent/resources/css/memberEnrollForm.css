@@ -1,0 +1,57 @@
+.logo{
+    text-align: center;
+}
+
+.name_wrap>input, .id_wrap>input, .password_wrap>input{
+    width:100%;
+    height: 40px;
+}
+
+.email_wrap>input{
+    width: 47.75%;
+    height: 40px;
+}
+
+.birth_wrap>span>input, .birth_wrap>span>select {
+    width:32%;
+    height: 40px;
+}
+#member_enroll_form_wrap{
+    width:1000px; margin:auto;
+}
+
+#member_enroll_form{
+    width:600px; 
+    margin:auto;
+    background-color: #dadada;
+}
+
+.input_content ,.join_content {
+    padding: 30px;
+}
+
+.terms_p{
+    border:1px solid gray;
+    padding: 30px;
+    background-color: white;
+}
+
+#divService, #divPrivacy, #divLocation, .event_message{
+    overflow: auto;
+    height: 88px;
+    margin-top:8px;
+    padding:12px;
+    border: 1px solid gray;
+    font-size:12px;
+}
+
+.terms_bx_list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+.btn_area{
+    width:400px;
+    margin:auto;
+}
