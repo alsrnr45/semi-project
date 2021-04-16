@@ -1,0 +1,41 @@
+.memberDelete_wrap{
+    width:500px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.memberDelete_wrap_title>div{
+    font-size:20px;
+    padding-left:20px;
+    margin:auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width:449px;
+    vertical-align:middle;
+    font-weight: 600;
+}
+
+.memberDelete_wrap_title{
+    box-sizing: border-box;
+    width:100%;
+    vertical-align: center;
+}
+
+.memberDelete_text_wrap_h{
+    border:2px solid orange;
+    padding:30px;
+}
+
+.memberDelete_text_wrap_m, .memberDelete_text_wrap_b{
+    border:1px solid gray;
+    padding:30px;
+}
+
+.memberDelete_text_wrap_b>input{
+    margin-bottom: 10px;
+}
+.btn_Area{
+    text-align: center;
+    
+}
+

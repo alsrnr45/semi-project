@@ -1,0 +1,59 @@
+.idPwFind_wrap{
+    width:1000px;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+.idPwFind_wrap>p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    color: #777;
+}
+
+.idFind_wrap, .pwFind_wrap{
+    background-color: lightgray;
+    width:40%;
+    height: 320px;
+    margin:auto;
+    margin: 20px;
+    padding:20px;
+    border-top: 2px solid black;
+}
+
+.idFind_wrap>*{
+    margin-top: 5;
+    margin-bottom: 5;
+}
+
+
+.idPwFind_wrap>*{
+    box-sizing:border-box;
+    float:left;
+}
+
+.idFind{
+    margin-bottom:33px;
+}
+
+.full {
+    width:100%;
+}
+
+.buttonArea{
+    border-top: 1px solid gray;
+    padding-top:16px;
+    text-align: center;
+}
+
+.btn-idPwfind>a {
+    color:white;
+    font-weight: 600;
+}
+
+.send_sms{
+    color:white;
+    background-color: #777;
+    font-size: 13px;
+}

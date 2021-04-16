@@ -1,0 +1,59 @@
+.memberUpdate_wrap{
+    width:500px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.memberUpdate_content{
+    width:500px;
+}
+
+tr>*{
+    border:1px solid gray;
+}
+
+.memberUpdate_content>table{
+    margin:0px;
+}
+
+.memberUpdate_content>tr{
+    height: 40px;
+    margin-left: 20px;
+}
+
+tr>th{
+    width:140px;
+    height: 45px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.memberUpdate_content>tr>td{
+    margin-left: 20px;
+}
+
+#name_text, #password_text, #passwordChk_text{
+    margin-left: 20px;
+}
+
+#phone_text{
+    width:250px;
+    margin-left: 20px;
+}
+
+#email_text{
+    width:130px;
+}
+
+#birthyy{
+    margin-left: 20px;
+}
+
+#birthyy, select{
+    width:100px;
+    height: 30px;
+}
+.btn_Area{
+    text-align: right;
+    
+}

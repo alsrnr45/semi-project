@@ -1,0 +1,57 @@
+.idPwFind_wrap{
+    width:1000px;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+.idPwFind_wrap>p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    color: #777;
+}
+
+.pwFind_wrap{
+    background-color: lightgray;
+    width:80%;
+    height: 320px;
+    margin:auto;
+    border-top: 2px solid black;
+}
+
+.pwFind_success{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.idPwFind_wrap>*{
+    box-sizing:border-box;
+}
+
+.pwFind{
+    text-align:center;
+    margin-top:10px;
+    padding-top:40px;
+    border-top:1px solid gray;
+    margin-bottom:10px;
+    padding-bottom:40px;
+    border-bottom:1px solid gray;
+    
+}
+
+.pwFind>b{
+    font-size:20px;
+}
+
+.buttonArea{
+    text-align: center;
+}
+
+
+
+.btn-warning>a{
+    color:white;
+    font-weight: 600;
+}
